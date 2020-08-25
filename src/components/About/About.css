@@ -1,0 +1,10 @@
+.about-cont {
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-cont {
+    margin-top: 55px;
+  }
+}
