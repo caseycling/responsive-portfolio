@@ -1,0 +1,27 @@
+.navBar {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.5fr 8fr 0.5fr 0.25fr 0.25fr;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid white;
+}
+
+.navLinks {
+  grid-column-start: 4;
+}
+
+.link {
+  margin: 0 0.5em 0;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: silver;
+}
+
+.active {
+  color: silver;
+}
