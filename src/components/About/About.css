@@ -1,6 +1,15 @@
 .about-cont {
   margin-top: 15px;
+  /* min-height: 100%; */
   text-align: center;
+
+  /* Fit section to entire screen */
+  /* position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 15px solid orange; */
 }
 
 @media only screen and (max-width: 600px) {
