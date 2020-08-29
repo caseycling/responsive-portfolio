@@ -1,27 +1,19 @@
 import React from 'react';
+import ProjectCard from '../Card/Card';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import projectsObjects from '../../utils/projectsObjects';
+import './Carousel.css';
 
 class Carousel extends React.Component {
   state = {
     galleryItems: projectsObjects.map((item) => (
-      <div className='individualProject' id={item.image}>
-        <a href={item.projectHref} target={'_blank'}>
-          <img id='projectImage' src={item.image} alt='Project' />
-        </a>
-        <div>
-          <h3 id='projectTitle'>{item.title}</h3>
-          <p>{item.description} </p>
-        </div>
-        <div>
-          <button>
-            <a id='projectLink' href={item.codeHref} target={'_blank'}>
-              Code
-            </a>
-          </button>
-        </div>
-      </div>
+      <ProjectCard
+        src={item.image}
+        title={item.title}
+        text={item.description}
+        code={item.code}
+      />
     )),
   };
 
