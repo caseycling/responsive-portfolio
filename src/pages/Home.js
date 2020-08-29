@@ -3,6 +3,7 @@ import NavBar from '../components/Navbar/Navbar';
 import About from '../components/About/About';
 import Carousel from '../components/Carousel/Carousel';
 import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
 
 import './Home.css';
 
@@ -13,6 +14,7 @@ function Home() {
       <About />
       <Carousel />
       <Contact />
+      <Footer />
     </div>
   );
 }

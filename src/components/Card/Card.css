@@ -1,0 +1,16 @@
+.card {
+  width: 24rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card {
+    margin: 3rem;
+  }
+}

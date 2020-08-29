@@ -20,7 +20,7 @@ class Carousel extends React.Component {
   responsive = {
     0: { items: 1 },
     600: { items: 2 },
-    1024: { items: 3 },
+    1200: { items: 3 },
   };
 
   thumbItem = (item, i) => (
@@ -31,6 +31,7 @@ class Carousel extends React.Component {
     return (
       <div>
         <AliceCarousel
+          className='carousel'
           dotsDisabled={true}
           responsive={this.responsive}
           buttonsDisabled={true}
