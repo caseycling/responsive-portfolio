@@ -6,7 +6,7 @@ import './Bio.css';
 const Bio = () => {
   return (
     <div className='wrapper'>
-      <div className='themed-container' fluid='sm' id='technologies'>
+      <div className='themed-container' fluid='sm' id='about'>
         {/* <img></img> */}
         <h3 style={{ marginTop: '20px' }}>About Me</h3>
         <p>

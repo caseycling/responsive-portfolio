@@ -25,7 +25,7 @@ const NavBar = () => {
         <Link
           className='link'
           activeClass='active'
-          to='technologies'
+          to='about'
           spy={true}
           smooth={true}
           offset={-90}
@@ -40,7 +40,7 @@ const NavBar = () => {
           to='projects'
           spy={true}
           smooth={true}
-          offset={-90}
+          offset={-50}
           duration={500}
           href='#features'
         >
