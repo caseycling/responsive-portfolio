@@ -1,6 +1,7 @@
 .card {
   width: 24rem;
   margin: auto;
+  /* background-color: rgb(232, 234, 246); */
 }
 
 @media only screen and (max-width: 600px) {

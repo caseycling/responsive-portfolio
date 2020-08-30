@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/Navbar/Navbar';
 import About from '../components/About/About';
+import Bio from '../components/Bio/Bio';
 import Carousel from '../components/Carousel/Carousel';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
@@ -12,6 +13,7 @@ function Home() {
     <div className='home'>
       <NavBar />
       <About />
+      <Bio />
       <Carousel />
       <Contact />
       <Footer />

@@ -32,7 +32,7 @@ const NavBar = () => {
           duration={500}
           href='#features'
         >
-          Technologies
+          About
         </Link>
         <Link
           className='link'
