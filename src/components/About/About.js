@@ -5,16 +5,21 @@ import './About.css';
 
 const About = () => {
   return (
-    <Jumbotron className='about-cont'>
-      <h1>Hello, world!</h1>
-      <p>
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
-      <p>
-        <Button variant='primary'>Learn more</Button>
-      </p>
-    </Jumbotron>
+    <div className='about-cont'>
+      <Jumbotron className='jumbotron'>
+        <div className='content'>
+          <h1>Casey Clingaman</h1>
+          <h5>Full-Stack Developer</h5>
+          <p>
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>
+          <p>
+            <Button variant='primary'>Learn more</Button>
+          </p>
+        </div>
+      </Jumbotron>
+    </div>
   );
 };
 
