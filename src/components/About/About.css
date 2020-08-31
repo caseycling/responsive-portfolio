@@ -15,9 +15,8 @@
 
 .content {
   background-color: gray;
-
   margin: 0 5vh 0;
-  padding: 5vh;
+  padding: 10vh 5vh 5vh;
   height: 70vh;
   opacity: 0.8;
 }
@@ -30,6 +29,11 @@
 .content h5 {
   font-size: 4vh;
   margin-bottom: 2vh;
+}
+
+.content img {
+  height: 7vh;
+  margin: 0 1vh 0.5vh;
 }
 
 @media only screen and (max-width: 600px) {
