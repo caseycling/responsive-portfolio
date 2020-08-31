@@ -8,7 +8,7 @@ const Bio = () => {
     <div className='wrapper'>
       <div className='themed-container' fluid='sm' id='about'>
         {/* <img></img> */}
-        <h3 style={{ marginTop: '20px' }}>About Me</h3>
+        <h2 style={{ marginTop: '20px' }}>About Me</h2>
         <p>
           I am a full-stack web developer, passionate about turning ideas into
           reality. Experienced with front-end and back-end development, I enjoy

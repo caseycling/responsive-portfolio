@@ -4,6 +4,10 @@
   /* background-color: rgb(232, 234, 246); */
 }
 
+.card-img {
+  height: 30vh;
+}
+
 @media only screen and (max-width: 600px) {
   .card {
     /* margin: 2rem; */

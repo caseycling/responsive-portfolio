@@ -8,6 +8,7 @@ function Contact() {
   return (
     <div className='contact-cont'>
       <div className='contact'>
+        <h1>Let's chat</h1>
         <Form>
           <Form.Row>
             <Form.Group as={Col} controlId='formGridEmail'>

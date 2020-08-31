@@ -7,7 +7,7 @@
 
 .jumbotron {
   background-image: url('../../images/background.jpg');
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   padding-top: 20vh;
   margin-bottom: 0vh;
@@ -15,6 +15,7 @@
 
 .content {
   background-color: gray;
+
   margin: 0 5vh 0;
   padding: 5vh;
   height: 70vh;
@@ -33,13 +34,14 @@
 
 @media only screen and (max-width: 600px) {
   .about-cont {
-    margin-top: 55px;
+    padding-top: 7vh;
   }
   .jumbotron {
     padding-top: 8vh;
   }
   .content {
-    padding: 8vh;
+    margin: 0.5rem;
+    padding: 10vh 1vh 1vh;
     height: 75vh;
   }
 }
