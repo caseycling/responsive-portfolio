@@ -5,14 +5,27 @@ import './Card.css';
 
 function ProjectCard(props) {
   return (
-    <div>
+    <div className='card-cont'>
       <Card className='card'>
         <Card.Img className='card-img' variant='top' src={props.src} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.text}</Card.Text>
-          <Button variant='primary' href={props.code} target='_blank'>
-            Go somewhere
+          <Button
+            className='code-btn'
+            variant='primary'
+            href={props.code}
+            target='_blank'
+          >
+            Code
+          </Button>
+          <Button
+            className='app-btn'
+            variant='primary'
+            href={props.code}
+            target='_blank'
+          >
+            App
           </Button>
         </Card.Body>
       </Card>

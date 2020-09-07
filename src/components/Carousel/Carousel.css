@@ -1,8 +1,9 @@
-.carousel {
-  padding: 5rem 0 5rem;
+.carousel-cont {
+  padding: 5rem 0rem 5rem;
+  /* background-color: #a4acdd; */
 }
 
-.carousel h2 {
+.carousel-cont h2 {
   padding: 0 6rem 2rem;
 }
 

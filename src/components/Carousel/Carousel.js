@@ -30,9 +30,10 @@ class Carousel extends React.Component {
 
   render() {
     return (
-      <div className='carousel' id='projects'>
+      <div className='carousel-cont' id='projects'>
         <h2>Projects</h2>
         <AliceCarousel
+          className='carousel'
           dotsDisabled={true}
           responsive={this.responsive}
           buttonsDisabled={false}
@@ -41,14 +42,6 @@ class Carousel extends React.Component {
           itemsInSlide={3}
           ref={(el) => (this.Carousel = el)}
         />
-
-        {/* <nav>{projectsObjects.map(this.thumbItem)}</nav>
-        <button id='carousel-btn' onClick={() => this.Carousel.slidePrev()}>
-          Prev
-        </button>
-        <button id='carousel-btn' onClick={() => this.Carousel.slideNext()}>
-          Next
-        </button> */}
       </div>
     );
   }

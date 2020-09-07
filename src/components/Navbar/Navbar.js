@@ -12,7 +12,7 @@ const NavBar = () => {
       <Nav style={{ gridColumnStart: '6' }}>
         <Link
           className='link'
-          activeClass='active'
+          // activeClass='active'
           to='home'
           spy={true}
           smooth={true}
