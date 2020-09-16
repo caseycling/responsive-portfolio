@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Container, Row, Col } from 'react-bootstrap';
 import profile from '../../images/profilePic.jpg';
 
 import './Bio.css';
@@ -7,8 +7,8 @@ import './Bio.css';
 const Bio = () => {
   return (
     <div className='wrapper'>
-      <div className='themed-container' fluid='sm' id='about'>
-        <Image src={profile} alt='casey' fluid />
+      <div className='container' id='about'>
+        <Image className='bio-pic' src={profile} alt='casey' fluid />
         <h2>About Me</h2>
         <p>
           I am a full-stack web developer, passionate about turning ideas into
