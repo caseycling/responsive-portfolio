@@ -1,20 +1,8 @@
 .carousel-cont {
-  padding: 5rem 0rem 5rem;
-  /* background-color: #a4acdd; */
+  padding: 5rem 0rem 2rem;
 }
 
 .carousel-cont h2 {
-  padding: 0 6rem 2rem;
-}
-
-@media only screen and (max-width: 700px) {
-  .carousel {
-    /* color: pink; */
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .carousel {
-    /* color: red; */
-  }
+  text-align: center;
+  padding-bottom: 3rem;
 }

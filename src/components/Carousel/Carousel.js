@@ -31,7 +31,9 @@ class Carousel extends React.Component {
   render() {
     return (
       <div className='carousel-cont' id='projects'>
-        <h2>Projects</h2>
+        <h2>
+          <strong>My Portfolio Pieces:</strong>
+        </h2>
         <AliceCarousel
           className='carousel'
           dotsDisabled={true}
