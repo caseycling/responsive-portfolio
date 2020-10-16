@@ -32,7 +32,7 @@ class Carousel extends React.Component {
     return (
       <div className='carousel-cont' id='projects'>
         <h2>
-          <strong>My Portfolio Pieces:</strong>
+          <strong>My Portfolio Pieces</strong>
         </h2>
         <AliceCarousel
           className='carousel'
@@ -42,6 +42,8 @@ class Carousel extends React.Component {
           showDots={true}
           items={this.state.galleryItems}
           itemsInSlide={3}
+          paddingLeft={0}
+          paddingRight={0}
           ref={(el) => (this.Carousel = el)}
         />
       </div>

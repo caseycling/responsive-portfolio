@@ -1,5 +1,9 @@
 .carousel-cont {
-  padding: 5rem 0rem 2rem;
+  padding: 4rem 0rem 2rem;
+}
+
+.carousel-cont .card {
+  color: black;
 }
 
 .carousel-cont h2 {
