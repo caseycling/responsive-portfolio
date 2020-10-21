@@ -1,0 +1,20 @@
+.social-cont {
+  padding: 1.5rem 0 1.5rem;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.social-cont h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.social-cont h6 {
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
+}
+
+.social-cont h2 {
+  margin-bottom: 1rem;
+}
