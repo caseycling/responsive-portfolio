@@ -1,18 +1,89 @@
 .contact-cont {
-  /* overflow: auto; */
-  padding: 6rem 10rem 0;
-  height: 90vh;
+  padding: 4rem 10rem 0rem;
+  height: 85vh;
 
   background-color: rgb(232, 234, 246);
 }
 
+.contact {
+  float: left;
+  width: 52%;
+  padding: 1.5rem 2rem 2rem;
+  margin-right: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.email {
+  float: right;
+  width: 45%;
+  padding: 1.5rem 2rem 2rem;
+  color: white;
+  background-color: black;
+  border-radius: 0.25rem;
+
+  text-align: center;
+}
+
 .contact h1 {
+  margin-top: 1rem;
   padding-bottom: 2rem;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1462px) {
+  .contact {
+    float: left;
+    width: 47%;
+    height: 92%;
+    margin-right: 0;
+  }
+
+  .email {
+    float: right;
+    padding: 1.5rem 1rem 2rem;
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
   .contact-cont {
-    padding: 4rem 1rem 1rem;
+    padding: 3rem 3rem 2rem;
+    height: 85vh;
+
+    background-color: rgb(232, 234, 246);
+  }
+
+  .contact {
+    float: left;
+    width: 47%;
+    height: 92%;
+    margin-right: 0;
+  }
+
+  .email {
+    float: right;
+    padding: 1.5rem 1rem 2rem;
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-cont {
+    padding: 3rem 2.5rem 2rem;
     height: 100%;
+
+    background-color: rgb(232, 234, 246);
+  }
+
+  .contact {
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .email {
+    float: none;
+    width: 100%;
   }
 }
