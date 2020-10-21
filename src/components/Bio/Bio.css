@@ -4,10 +4,10 @@
 }
 
 .container {
-  padding: 1rem 2rem 7vh;
-
-  border: 1px solid gray;
+  padding: 1rem 2rem 9vh;
+  height: 100%;
   box-shadow: 3px 3px 5px 6px #ccc;
+  border-radius: 0.25rem;
   background-color: white;
 }
 
@@ -15,7 +15,7 @@
   float: left;
   padding: 2vh 1vw 4vh;
   height: 20vh;
-  min-height: 300px;
+  min-height: 280px;
   border-radius: 5rem;
 }
 
@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 1000px) {
   .container {
-    width: 90vw;
+    width: 95vw;
     padding-bottom: 5vh;
     margin-bottom: 0;
   }

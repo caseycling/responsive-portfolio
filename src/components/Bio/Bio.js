@@ -20,7 +20,7 @@ const Bio = () => {
           environment where I can grow as a professional and be a positive
           impact as a team member.
         </p>
-        <p class='sm-hide'>
+        <p className='sm-hide'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
