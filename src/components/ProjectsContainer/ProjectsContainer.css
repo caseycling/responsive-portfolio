@@ -1,0 +1,24 @@
+.projects-container {
+margin: 4.5rem 11rem 5rem;
+}
+
+.projects-container h1{
+  text-align: center;
+  color: black;
+  padding-bottom: 3.5rem; 
+}
+
+
+
+/* .carousel-cont {
+  padding: 4rem 0rem 2rem;
+}
+
+.carousel-cont .card {
+  color: black;
+}
+
+.carousel-cont h2 {
+  text-align: center;
+  padding-bottom: 3rem;
+} */

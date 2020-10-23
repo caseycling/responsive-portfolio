@@ -2,7 +2,8 @@ import React from 'react';
 import NavBar from '../components/Navbar/Navbar';
 import About from '../components/About/About';
 import Bio from '../components/Bio/Bio';
-import Carousel from '../components/Carousel/Carousel';
+import ProjectsContainer from '../components/ProjectsContainer/ProjectsContainer';
+import Social from '../components/Social/Social';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 
@@ -10,11 +11,12 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className='home'>
+    <div>
       <NavBar />
       <About />
       <Bio />
-      <Carousel />
+      <ProjectsContainer />
+      <Social />
       <Contact />
       <Footer />
     </div>
