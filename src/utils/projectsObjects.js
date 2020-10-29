@@ -7,7 +7,7 @@ import weather from '../images/weather.jpg';
 const projectsObjects = [
   {
     title: 'Barter Bud',
-    projectHref: 'https://facebook.com',
+    projectHref: 'https://secure-headland-57611.herokuapp.com/',
     code: 'https://github.com/caseycling/Project2',
     image: barter,
     description:
@@ -27,7 +27,7 @@ const projectsObjects = [
     code: 'https://github.com/caseycling/MERN-stack',
     image: shopping,
     description:
-      'A simple shopping list application using MongoDb, express, React.js and Node (MERN stack). Implemented react-strap for styling the app along with Redux for state managment. Using a RESTful API and MongoDB, list items can be added for display, updated with a line-through or deleted for removal.',
+      'A simple shopping list application using the MERN stack. Implemented react-strap for styling the app along with Redux for state managment. Using a RESTful API and MongoDB, list items can be added for display, updated with a line-through or deleted for removal.',
   },
   {
     title: 'Recipe Generator',
@@ -35,7 +35,7 @@ const projectsObjects = [
     code: 'https://github.com/caseycling/recipeApp/',
     image: recipe,
     description:
-      'App for finding recipes using a RESTful API. Upon entering an ingredient in the search bar, the Edmam API is queried for recipes relative to the search term. The resulting JSON response object is then passed in as props to the recipe component which then displays  the top ten resulting recipes.',
+      'App for finding recipes using RESTful API. Upon entering an ingredient in the search bar, the Edmam API is queried for recipes relative to ingredient. The resulting JSON response object is then passed in as props to the recipe component which then displays  the top ten resulting recipes.',
   },
   {
     title: 'Weather App',
@@ -43,7 +43,7 @@ const projectsObjects = [
     code: 'https://github.com/caseycling/weather-app/',
     image: weather,
     description:
-      'Single-page application built with a React.js frontend for searching the weather. After entering in a city, a request is sent to OpenWeatherMap using HTTP protocol and the resulting date and weather is displayed with background dynamically changing dependent on the weather.',
+      'Single-page application built with a React.js for searching the weather. After entering in a city, a request is sent to OpenWeatherMap using HTTP protocol and the resulting date and weather is displayed with background dynamically changing dependent on the weather.',
   },
 ];
 

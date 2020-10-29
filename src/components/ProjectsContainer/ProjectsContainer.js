@@ -1,12 +1,20 @@
 import React from 'react';
 import ProjectCard from '../Card/Card';
-// import AliceCarousel from 'react-alice-carousel';
-import { CardColumns } from 'reactstrap'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 import './ProjectsContainer.css';
 import projectsObjects from '../../utils/projectsObjects';
 
 function ProjectsContainer() {
+
+    const handleDragStart = (e) => e.preventDefault();
+
+    const responsive = {
+        0: { items: 1 },
+        600: { items: 2 },
+        1000: { items: 3 },
+    }
 
     const projects = projectsObjects.map(item => {
         return (
@@ -15,6 +23,7 @@ function ProjectsContainer() {
                 title={item.title}
                 text={item.description}
                 code={item.code}
+                onDragStart={handleDragStart}
             />
         );
     });
@@ -22,10 +31,9 @@ function ProjectsContainer() {
     return (
         <div className='projects-container' id='projects'>
             <h1> <strong>My Portfolio Pieces</strong></h1>
-            <CardColumns>
-                {projects}
-            </CardColumns>
+            <AliceCarousel className='carousel' mouseTracking items={projects} responsive={responsive} />
         </div>
+
 
     )
 }

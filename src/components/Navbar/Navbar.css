@@ -1,18 +1,18 @@
 .navBar {
-  display: grid;
-  grid-template-columns: 0.25fr 0.25fr 0.5fr 8fr 0.5fr 0.25fr 0.25fr;
   position: fixed;
-  width: 100%;
+  padding-left: 9rem;
+  padding-right: 9rem;
   z-index: 100;
-  border-bottom: 1px solid white;
+  background-color: black;
 }
 
-.navLinks {
-  grid-column-start: 4;
+.dropdown {
+  display: none;
 }
 
 .link {
-  margin: 0 0.5em 0;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
   text-decoration: none;
   color: white;
 }
@@ -24,4 +24,20 @@
 
 .active {
   color: silver;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+  .mr-auto {
+    align-content: center;
+  }
+
+  .dropdown {
+    display: inline;
+  }
+  
+  /* .link {
+    display: none;
+  } */
+
 }

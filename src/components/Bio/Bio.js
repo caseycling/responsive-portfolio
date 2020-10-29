@@ -15,18 +15,13 @@ const Bio = () => {
         <p>
           I am a full-stack web developer, passionate about turning ideas into
           reality. I enjoy the logical puzzles that come with software
-          engineering and take pride in writting elegant, dry code. I am excited
-          to apply the skills I've built as a developer in a challenging
-          environment where I can grow as a professional and be a positive
+          engineering and the process of building things from scratch, taking pride in writting elegant, dry code. I am excited
+          to apply the skills I've built as a developer in an
+          environment where I can grow as a professional and make a positive
           impact as a team member.
         </p>
         <p className='sm-hide'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident.
+          Outside of coding, I enjoy spending my time working on cooking projects, reading some dystopian sci-fi novel or grinding away in the woodshop.
         </p>
       </div>
     </div>

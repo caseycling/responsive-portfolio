@@ -1,9 +1,8 @@
 .card {
-  width: 24rem;
+  /* width: 24vw; */
   margin: auto;
   padding: 1rem;
 
-  background-color: #fff;
 }
 
 .code-btn {

@@ -1,31 +1,26 @@
 import React from 'react';
-import { Jumbotron, Button, Image } from 'react-bootstrap';
+import { Jumbotron, Button } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
-import github from '../../images/githubLogo.png';
-import linkedin from '../../images/linkeInLogo.png';
 
 import './About.css';
 
 const About = () => {
   return (
     <div className='about-cont'>
-      <Jumbotron className='jumbotron'>
+      <Jumbotron className='jumbotron' id='home'>
         <div className='content'>
-          <h1>Casey Clingaman</h1>
-          <h5>Full-Stack Developer</h5>
-          <a href='https://github.com/caseycling/'>
-            <Image src={github} alt='github' />
-          </a>
-          <a href='https://www.linkedin.com/in/casey-clingaman-b670b5177/'>
-            <Image src={linkedin} alt='linkedin' />
-          </a>
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
-          </p>
-          <p>
-            <Button variant='primary'>Learn more</Button>
-          </p>
+          <h1>CASEY CLINGAMAN</h1>
+          <h5>FULL-STACK DEVELOPER </h5>
+          <h5>BASED OUT OF SEATTLE, WA</h5>
+          <Button variant='primary'>
+            <Link to='about'
+              smooth={true}
+              offset={-90}
+              duration={500}>
+              Learn more
+            </Link>
+          </Button>
         </div>
       </Jumbotron>
     </div>

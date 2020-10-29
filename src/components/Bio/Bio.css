@@ -24,6 +24,7 @@
 }
 
 .container p {
+  font-size: large;
   margin-top: 1.5vh;
   margin-bottom: 1vh;
 }
@@ -63,6 +64,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .wrapper {
+    padding-top: 4vh;
+  }
   .container {
     display: flex;
     flex-direction: column;
