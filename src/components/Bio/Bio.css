@@ -1,11 +1,14 @@
 .wrapper {
+  /* height: 100%; */
   background-color: rgb(232, 234, 246);
   padding: 6vh 0vh 6vh;
 }
 
-.container {
+.bio-container {
+  margin: auto;
   padding: 1rem 2rem 9vh;
   height: 100%;
+  width: 75%;
   box-shadow: 3px 3px 5px 6px #ccc;
   border-radius: 0.25rem;
   background-color: white;
@@ -19,36 +22,37 @@
   border-radius: 5rem;
 }
 
-.container h2 {
+.bio-container h2 {
+  font-size: 37.5px;
   margin-top: 2vh;
 }
 
-.container p {
+.bio-container p {
   font-size: large;
   margin-top: 1.5vh;
   margin-bottom: 1vh;
 }
 
 @media only screen and (min-width: 1800px) {
-  .container {
+  .bio-container {
     padding-bottom: 5vh;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  .container {
+  .bio-container {
     padding-bottom: 4vh;
   }
   .bio-pic {
     margin-right: 1vw;
   }
-  .container p {
+  .bio-container p {
     margin-top: 0;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .container {
+  .bio-container {
     width: 95vw;
     padding-bottom: 5vh;
     margin-bottom: 0;
@@ -65,22 +69,24 @@
 
 @media only screen and (max-width: 600px) {
   .wrapper {
-    padding-top: 4vh;
+    padding-top: 0vh;
+    margin-top: 0;
   }
-  .container {
+  .bio-container {
     display: flex;
+    /* margin-top: 0; */
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .container h2 {
+  .bio-container h2 {
     text-align: left;
     margin-top: 0vh;
     padding-left: 5vw;
   }
 
-  .container p {
+  .bio-container p {
     padding-left: 4vw;
     padding-right: 4vw;
   }
