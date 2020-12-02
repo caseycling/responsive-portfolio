@@ -22,7 +22,7 @@ function ProjectCard(props) {
           <Button
             className='app-btn'
             variant='primary'
-            href={props.code}
+            href={props.app}
             target='_blank'
           >
             App
