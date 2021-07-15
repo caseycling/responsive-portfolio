@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium-Web&display=swap');
 
+.jumbotron .content {
+  text-transform: uppercase;
+}
+
 .about-cont {
   background-color: rgb(232, 234, 246);
 
@@ -27,7 +31,7 @@
 .content h1 {
   letter-spacing: 1rem;
   font-weight: bold;
-  font-size: 10vh;
+  font-size: 10vw;
   margin: 2vh;
 }
 
@@ -60,7 +64,7 @@
   }
   .content h1 {
     letter-spacing: 0.5rem;
-    font-size: 8vh;
+    font-size: 8vw;
   }
   .content h5 {
     font-size: 3vh;
@@ -69,6 +73,6 @@
 
 @media only screen and (max-width: 400px) {
   .content h1 {
-    font-size: 6vh;
+    font-size: 10vw;
   }
 }
