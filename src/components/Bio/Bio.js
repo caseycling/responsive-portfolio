@@ -21,8 +21,8 @@ const Bio = () => {
           professional and make a positive impact as a team member.
         </p>
         <p className='sm-hide'>
-          Outside of coding, I enjoy spending my time working on cooking
-          projects, reading some dystopian sci-fi novel or grinding away in the
+          Outside of coding, I enjoy spending my time working on various cooking
+          projects, playing an unhealthy amount of chess or grinding away in the
           woodshop.
         </p>
       </div>

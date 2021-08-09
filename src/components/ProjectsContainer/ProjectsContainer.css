@@ -1,12 +1,12 @@
 .projects-container {
-margin: 0 11rem 5rem;
+  margin: 0 13rem 5rem;
 }
 
-.projects-container h1{
+.projects-container h1 {
   text-align: center;
   color: black;
-  margin-top: 3.5rem; 
-  margin-bottom: 3.5rem; 
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .carousel {
@@ -15,12 +15,11 @@ margin: 0 11rem 5rem;
 }
 
 @media only screen and (max-width: 1200px) {
-
   .projects-container {
     margin: 0 4rem 5rem;
   }
-    .card-columns {
-      display: none;
-      column-count: 2;
-    }
+  .card-columns {
+    display: none;
+    column-count: 2;
+  }
 }
